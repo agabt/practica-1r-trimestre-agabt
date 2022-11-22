@@ -1,0 +1,40 @@
+/* Beginning Header */
+
+.flex {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.active {
+  background: #ff5480;
+  border-radius: 10px;
+  width: 73px;
+  height: 35px;
+  color: white;
+}
+
+a i {
+  width: 99px;
+  height: 29px;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.web-icon {
+  background-image: url(../assets/icons/web-icon.png);
+}
+
+.search {
+  background-image: url(../assets/icons/Icon.png);
+  margin-left: 10%;
+}
+
+/* End Header */
