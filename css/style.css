@@ -1,5 +1,9 @@
 /* Beginning Header */
 
+header {
+  background-color: white;
+}
+
 .flex {
   display: flex;
   justify-content: center;
@@ -15,7 +19,7 @@ a {
 .active {
   background: #ff5480;
   border-radius: 10px;
-  width: 73px;
+  width: 5%;
   height: 35px;
   color: white;
 }
@@ -38,3 +42,47 @@ a i {
 }
 
 /* End Header */
+
+/* Beginning Posts */
+
+.col img {
+  border-radius: 10px;
+}
+
+.col div {
+  justify-content: left;
+}
+
+.flex p {
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+.gray {
+  color: #aaa;
+}
+
+.container {
+  width: 90%;
+}
+
+.title {
+  font-size: 29px;
+  text-align: left;
+}
+
+.subtitle {
+  color: #999;
+  font-size: 16px;
+  text-align: left;
+}
+
+/* End Posts */
+
+/* Media Query */
+
+@media screen and (max-width: 1399px) {
+  .col div{
+    justify-content: center;
+  }
+}
