@@ -1,4 +1,14 @@
+/* Beginning Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* End Imports */
+
 /* Beginning Header */
+
+html {
+  font-family: 'Open Sans';
+}
 
 header {
   background-color: white;
@@ -63,12 +73,13 @@ a i {
 }
 
 .container {
-  width: 90%;
+  width: 100%;
 }
 
 .title {
   font-size: 29px;
   text-align: left;
+  font-weight: 600;
 }
 
 .subtitle {
@@ -79,10 +90,24 @@ a i {
 
 /* End Posts */
 
+/* Beginning post.html CSS */
+
+.posts {
+  text-align: center;
+}
+
+.post-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+/* End post.html CSS */
+
 /* Media Query */
 
 @media screen and (max-width: 1399px) {
-  .col div{
+  .col div {
     justify-content: center;
   }
 }
