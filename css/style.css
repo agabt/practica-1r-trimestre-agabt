@@ -6,7 +6,7 @@
 
 /* Beginning Header */
 
-html {
+body {
   font-family: 'Open Sans';
 }
 
@@ -48,18 +48,86 @@ a i {
 
 .search {
   background-image: url(../assets/icons/Icon.png);
-  margin-left: 10%;
+}
+
+ul > li > a {
+  padding: 10px;
+  margin-left: 20px;
 }
 
 /* End Header */
 
-/* Beginning Posts */
+/* Beginning Images */
 
-.col img {
+.images {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 360px;
+  margin-left: 4%;
   border-radius: 10px;
 }
 
-.col div {
+.image1{
+  background-image: url(../assets/imgs/new1.png);
+}
+
+.image2{
+  background-image: url(../assets/imgs/new2.png);
+}
+
+.image3{
+  background-image: url(../assets/imgs/new3.png);
+}
+
+.image4{
+  background-image: url(../assets/imgs/new4.png);
+}
+
+.image5{
+  background-image: url(../assets/imgs/new5.png);
+}
+
+.image6{
+  background-image: url(../assets/imgs/new6.png);
+}
+
+.image7{
+  background-image: url(../assets/imgs/new7.png);
+}
+
+.image8{
+  background-image: url(../assets/imgs/new8.png);
+}
+
+.image9{
+  background-image: url(../assets/imgs/new9.png);
+}
+
+.image10{
+  background-image: url(../assets/imgs/new10.png);
+}
+
+.image11{
+  background-image: url(../assets/imgs/new11.png);
+}
+
+.image12{
+  background-image: url(../assets/imgs/new12.png);
+}
+
+.image13{
+  background-image: url(../assets/imgs/new13.png);
+}
+
+.image14{
+  background-image: url(../assets/imgs/new14.png);
+}
+
+/* End Images */
+
+/* Beginning Posts */
+
+.col-lg-6 div {
   justify-content: left;
 }
 
@@ -70,10 +138,6 @@ a i {
 
 .gray {
   color: #aaa;
-}
-
-.container {
-  width: 100%;
 }
 
 .title {
@@ -103,11 +167,3 @@ a i {
 }
 
 /* End post.html CSS */
-
-/* Media Query */
-
-@media screen and (max-width: 1399px) {
-  .col div {
-    justify-content: center;
-  }
-}
