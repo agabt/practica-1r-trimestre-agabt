@@ -39,10 +39,6 @@ a {
   background-image: url(../assets/icons/web-icon.png);
 }
 
-.search {
-  background-image: url(../assets/icons/Icon.png);
-}
-
 ul>li>a {
   padding: 10px;
   margin-left: 20px;
