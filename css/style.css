@@ -10,13 +10,9 @@ body {
   font-family: 'Open Sans';
 }
 
-header {
-  background-color: white;
-}
-
 .flex {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   text-align: center;
   align-items: center;
 }
@@ -50,6 +46,13 @@ a {
 ul>li>a {
   padding: 10px;
   margin-left: 20px;
+}
+
+.nav-item > a:hover {
+  transition-duration: 0.5s;
+  background-color: #aaa;
+  color: white;
+  border-radius: 10px;
 }
 
 /* End Header */
@@ -119,6 +122,22 @@ ul>li>a {
   background-image: url(../assets/imgs/new14.png);
 }
 
+.image-post1 {
+  background-image: url(../assets/imgs/post-img1.png);
+}
+
+.image-post2 {
+  background-image: url(../assets/imgs/post-img2.png);
+}
+
+.image-post3 {
+  background-image: url(../assets/imgs/post-img3.png);
+}
+
+.image-post4 {
+  background-image: url(../assets/imgs/post-img4.png);
+}
+
 /* End Images */
 
 /* Beginning Posts */
@@ -174,6 +193,10 @@ ul>li>a {
   color: whitesmoke;
 }
 
+.div-load-more {
+  text-align: center;
+}
+
 /* End Posts */
 
 /* Beginning Topics */
@@ -190,14 +213,18 @@ ul>li>a {
 
 /* Beginning post.html CSS */
 
-.posts {
-  text-align: center;
-}
-
 .post-title {
   font-size: 36px;
   font-weight: 700;
   color: #4a4a4a;
+}
+
+.tomas-i {
+  border-radius: 80px;
+  background-image: url(../assets/imgs/El\ puto\ tomas\ chaval.png);
+  background-repeat: no-repeat;
+  height: 82px;
+  width: 82px;
 }
 
 /* End post.html CSS */
