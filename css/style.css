@@ -36,7 +36,7 @@ a {
   display: block;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../assets/icons/web-icon.png);
+  background-image: url(../assets/icons/Web-icon.svg);
 }
 
 ul>li>a {
@@ -205,6 +205,10 @@ ul>li>a {
   justify-content: center;
 }
 
+.topic p {
+  margin-bottom: 0;
+}
+
 /* End Topics */
 
 /* Beginning post.html CSS */
@@ -217,10 +221,10 @@ ul>li>a {
 
 .tomas-i {
   border-radius: 80px;
-  background-image: url(../assets/imgs/El\ puto\ tomas\ chaval.png);
+  background-image: url(../assets/imgs/tomas.svg);
   background-repeat: no-repeat;
-  height: 82px;
-  width: 82px;
+  height: 80px;
+  width: 80px;
 }
 
 /* End post.html CSS */
@@ -237,7 +241,7 @@ footer .col-4 {
   display: block;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url(../assets/icons/web-icon-f.png);
+  background-image: url(../assets/icons/Web-icon-f.svg);
 }
 
 .footer-i>a>i {
@@ -245,26 +249,6 @@ footer .col-4 {
   width: 35px;
   display: inline-block;
   background-repeat: no-repeat;
-}
-
-.vk-i {
-  background-image: url(../assets/icons/Vk.png);
-}
-
-.pint-i {
-  background-image: url(../assets/icons/Pinterest.png);
-}
-
-.inst-i {
-  background-image: url(../assets/icons/Instagram.png);
-}
-
-.twit-i {
-  background-image: url(../assets/icons/Twitter.png);
-}
-
-.face-i {
-  background-image: url(../assets/icons/Facebook.png);
 }
 
 /* End Footer Icons */
